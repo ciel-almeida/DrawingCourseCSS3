@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    to right,
+    rgb(92, 120, 148),
+    rgb(133, 185, 181)
+  );
+}
+
+.pepsi {
+  position: relative;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  background-color: rgb(54, 54, 136);
+  border: 15px solid white;
+  overflow: hidden;
+}
+
+.pepsi::before {
+  content: "";
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  top: -215px;
+  left: -167px;
+  transform: rotate(-14deg);
+  border-radius: 28%;
+  background-color: white;
+}
+
+.pepsi::after {
+  content: "";
+  position: absolute;
+  width: 510px;
+  height: 510px;
+  top: -238px;
+  left: -202px;
+  border-radius: 50%;
+
+  background-color: red;
+}
