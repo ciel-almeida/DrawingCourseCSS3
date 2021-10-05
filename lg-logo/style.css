@@ -1,0 +1,67 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lg-logo {
+  width: 500px;
+  height: 500px;
+  background-color: red;
+  border-radius: 50%;
+  position: relative;
+}
+.lg-logo__circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  border: solid 20px white;
+  border-right-color: transparent;
+}
+.lg-logo__circle-line {
+  position: absolute;
+  width: 140px;
+  height: 20px;
+  top: 50%;
+  right: 28px;
+  background-color: white;
+}
+.lg-logo__vert-line {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 270px;
+  width: 20px;
+  background-color: white;
+}
+.lg-logo__hor-line {
+  position: absolute;
+  top: 73%;
+  left: 50%;
+  height: 20px;
+  width: 70px;
+  background-color: white;
+}
+.lg-logo__inner-circle {
+  position: absolute;
+  top: 22%;
+  left: 25%;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+}
