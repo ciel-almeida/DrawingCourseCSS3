@@ -4,8 +4,6 @@
 
 Challenges from a course based in drawings made with CSS. This course was a lot of fun, it was a great opportunity to practice positioning, pseudo-elements and BEM and to have a new perspective of what it's possible only with the power of HTML5 and CSS3.
 
-<hr>
-
 ## Index
 
 1. Adidas logo
